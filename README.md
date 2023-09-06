@@ -9,6 +9,8 @@
 - [Descricão do projeto](#descrição-do-projeto)
   
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
+
+- [Como executar o projeto](#como-executar-o-projeto)
   
 - [Funcionalidades](#funcionalidades)
   
@@ -18,7 +20,29 @@ Este projeto é uma API que segue os padrões RESTful, a API foi desenvolvida pa
 
 ## Ferramentas Utilizadas
 [![Ferramentas Usadas](https://skillicons.dev/icons?i=js,nodejs,express)](https://skillicons.dev)
-  
+
+## Como executar o projeto
+Para executar o projeto é necessário ter o Node.js instalado.
+
+Com o Node.js instalado basta fazer um clone do projeto
+```bash
+git clone https://github.com/Guilhsouza/banking-system-API.git
+```
+Abra o diretório do projeto
+```bash
+cd banking-system-API
+```
+
+Instale as dependências utilizando o comando:
+```bash
+npm i
+```
+
+Inicialize o servidor local: 
+```bash
+npm run dev
+```
+Para testar todas as rotas, é possível utilizar o Postman ou o Insomnia.
 ## Funcionalidades 
 
 ### Funções de contas
@@ -91,3 +115,11 @@ Este projeto é uma API que segue os padrões RESTful, a API foi desenvolvida pa
     <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/ad5f54ca-a50d-4aed-ba98-987cab74461b'>
   </p>
 
+## Como contribuir para o projeto
+1. Faça um fork do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contanto o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as alterações: `git push origin my-feature`
+
+## Autores 
+[Guilherme Souza](https//:www.linkedin.com/in/guilhrme-souza)

@@ -122,4 +122,4 @@ Para testar todas as rotas, é possível utilizar o Postman ou o Insomnia.
 4. Envie as alterações: `git push origin my-feature`
 
 ## Autores 
-[Guilherme Souza](www.linkedin.com/in/guilhrme-souza)
+[Guilherme Souza](https://www.linkedin.com/in/guilhrme-souza/)

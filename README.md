@@ -7,11 +7,18 @@
 ## Tópicos
 
 - [Descricão do projeto](#descrição-do-projeto)
+  
+- [Ferramentas utilizadas](#ferramentas-utilizadas)
+  
 - [Funcionalidades](#funcionalidades)
-
+  
+  
 ## Descrição do projeto
 Este projeto é uma API que segue os padrões RESTful, a API foi desenvolvida para fazer as principais funções de um banco, como por exemplo a criação de contas, depositos e emissão de extrato de todas as transações efetuadas em uma determinada conta.
 
+## Ferramentas Utilizadas
+[![Ferramentas Usadas](https://skillicons.dev/icons?i=js,nodejs,express)](https://skillicons.dev)
+  
 ## Funcionalidades 
 
 ### Funções de contas
@@ -40,14 +47,47 @@ Este projeto é uma API que segue os padrões RESTful, a API foi desenvolvida pa
   O programa confirma se a conta existe, se existir ela exclui todo o objeto.
 
   <p align = 'center'>
-  <img src= 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/a555c9ba-a5c6-4da4-8026-058f27e7edc8'
+  <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/a555c9ba-a5c6-4da4-8026-058f27e7edc8'
   </p>
+  
+<hr>
 
 ### Funções de transações
-- Depósito;
-- Saque;
-- Transferência.
+- ### Depósito:
+  O programa verifica se a conta existe, e se os parametros foram passados corretamente, se sim, faz o depósito em uma conta específica. Os valores são passados em centavos e depois transformados em reais.
 
-**Funções de consulta:**
-- Consultar saldo;
-- Consultar extrato.
+  <p align = 'center'>
+    <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/0cb0da02-417f-4f02-ab2e-c28eb5a58fb6'>
+  </p>
+  
+- ### Saque:
+  O programa verifica se a conta existe, se o saldo é suficiente e se a senha passada é a correta, se passar em todos os testes faz o saque da conta. Também é passado em centavos e depois convertido em reais.
+
+  <p align = 'center'>
+    <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/5d81fac4-e6f0-4da4-90bb-9c6b66b9480a'>
+  </p>
+  
+- ### Transferência:
+  O programa verifica se ambas contas existem, se o saldo é suficiente da conta de origem e se a senha da conta de origem está correta. Também é passado em centavos e depois convertido em reais.
+
+  <p align = 'center'>
+    <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/9e41bdcc-8e9c-4d21-a9c6-10a92d4eadab'>
+  </p>
+
+<hr>
+
+### Funções de consulta
+- ### Consultar saldo:
+  O programa vai procurar pelos parametros passados na URL se a conta existe comparando com o número da conta, se existir e a senha for correta, ele imprime o saldo atual da conta.
+
+  <p align = 'center'>
+     <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/285be5ba-6045-47e6-9ee7-aa37d62b2212'>
+  </p>
+  
+- ### Consultar extrato:
+  O programa vai procurar pelos parametros passados na URL se a conta existe comparando com o número da conta, se existir e a senha for correta, ele imprime o extrato de todas as transações que ocorreram na conta.
+
+  <p align = 'center'>
+    <img src = 'https://github.com/Guilhsouza/banking-system-API/assets/124008139/ad5f54ca-a50d-4aed-ba98-987cab74461b'>
+  </p>
+

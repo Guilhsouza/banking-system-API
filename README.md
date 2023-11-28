@@ -15,7 +15,7 @@
 - [Funcionalidades](#funcionalidades)
   
   
-## Descrição do projeto
+## 📌 Descrição do projeto
 Este projeto é uma API que segue os padrões RESTful, a API foi desenvolvida para fazer as principais funções de um banco, como por exemplo a criação de contas, depositos e emissão de extrato de todas as transações efetuadas em uma determinada conta.
 
 ## Ferramentas Utilizadas
